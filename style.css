@@ -39,14 +39,11 @@ body {
   transition: background 0.3s ease-in-out;
 }
 
-/* ............/navbar/............ *
+/* ............/navbar/............ */
 
-/* desktop mode............/// */
 
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-  display: none;
-}
+
+
 
 .navbar {
   box-shadow: 0px 5px 10px 0px #000000a4;
@@ -124,7 +121,9 @@ body {
   text-transform: uppercase;
   margin-top: 1.5em;
  color: #f5f5f7;
+ 
 }
+
 
 /* ......//about us//...... */
 
@@ -202,13 +201,9 @@ body {
   border-radius: 50%;
   object-fit: cover;
   object-position: center;
-  transition: transform .3s;
-}
-.food-menu-container img:hover{
   
-  transform: scale(1.8);
- 
 }
+
 
 .food-menu-item {
   display: flex;
@@ -218,12 +213,12 @@ body {
   margin-right: 2rem;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
   border-radius: 10px;
-  transition: transform .3s;
+  transition: transform .5s;
 }
 .food-menu-item:hover{
   box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 12px 40px 0 rgbargba(0, 0, 0, 0.19);
   transform: scale(1.2);
-  border: 5px solid black;
+  
   
 }
 
@@ -296,7 +291,7 @@ body {
   transition: transform .3s;
 }
 .customer-photo img:hover{
-  transform: scale(3);
+  transform: scale(2);
   margin-bottom: 10px;
 }
 
